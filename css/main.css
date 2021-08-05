@@ -76,10 +76,6 @@ body {
   margin-right: 40px;
 }
 
-/*.page-nav .item:last-child {
-    margin-right: 0;
-}*/
-
 .page-nav .link {
   display: block;
   padding-top: 32px;
@@ -129,8 +125,8 @@ body {
 
 .hero {
   text-align: center;
-  margin-bottom: 94px;
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -143,11 +139,6 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 200px 0 0 0;
-}
-
-.hero .btn {
-  /* font-size: 24px; */
 }
 
 .btn {
@@ -156,7 +147,7 @@ body {
   border: none;
 
   font-family: inherit;
-
+  line-height: 1.87;
   border-radius: 4px;
   padding: 10px 32px;
   display: inline-block;
@@ -168,6 +159,8 @@ body {
 
 .features-nav {
   display: flex;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 .features-nav li {
@@ -197,7 +190,6 @@ body {
 
 .features-nav .text {
   margin-top: 0;
-  margin-bottom: 94px;
   color: var(--additional-text-color);
 
   font-size: 14px;
@@ -276,15 +268,16 @@ body {
 /* Footer styles*/
 
 .footer {
+  display: flex;
   padding-bottom: 60px;
   padding-top: 60px;
   background-color: var(--footer-color);
 }
 
 .footer .logo {
+  font-family: Raleway;
   display: block;
   text-decoration: none;
-  font-family: Raleway;
   color: var(--logo-color);
   font-weight: 700;
   font-size: 26px;
@@ -299,20 +292,36 @@ body {
   color: var(--main-background-color);
 }
 
-.addr-nav a {
+.addr-nav {
+  width: 231px;
+  height: 81px;
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.addr-nav .mail {
+  display: inline-block;
+  margin-bottom: 9px;
   color: var(--primary-text-color);
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
-  font-style: normal;
 }
 
-.addr-nav p {
-  color: var(--main-background-color);
-  font-style: normal;
-  font-weight: 400;
+.addr-nav .phone {
+  color: var(--primary-text-color);
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
+  pad
+}
+
+.addr-nav .adress {
+  color: var(--main-background-color);
+  font-size: 14px;
+  line-height: 1.71;
+  margin: 0 0 9px 0;
 }
 
 .bgc {
@@ -321,16 +330,25 @@ body {
 
 /* Стили для portfolio.html*/
 
+.page-header {
+  border: 1px solid #ECECEC;
+}
+
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .project-nav {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .project-element {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .project-element .title,
@@ -376,7 +394,6 @@ body {
   display: flex;
   list-style-type: none;
   justify-content: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
