@@ -123,7 +123,7 @@ body {
 
 /* Hero block*/
 
-.hero {
+.hero-box {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -279,11 +279,6 @@ body {
 
 /* Footer styles*/
 
-.bgc {
-  padding-bottom: 60px;
-  padding-top: 60px;
-}
-
 .footer {
   display: flex;
   background-color: var(--footer-color);
@@ -340,8 +335,10 @@ body {
   margin: 0 0 9px 0;
 }
 
-.bgc {
+.footer-box {
   background-color: var(--footer-color);
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 /* Стили для portfolio.html*/
